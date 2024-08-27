@@ -44,6 +44,7 @@ MESSAGE(${OpenCV_VERSION})
 
 find_package(Eigen3 3.1.0 REQUIRED)
 find_package(Pangolin REQUIRED)
+list(APPEND CMAKE_PREFIX_PATH "C:/toolbox/vcpkg/packages/realsense2_x64-windows")
 find_package(realsense2)
 
 include_directories(
